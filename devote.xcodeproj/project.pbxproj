@@ -16,6 +16,8 @@
 		7EA93FAA27564A3B000EA62D /* sound-tap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7EA93FA727564A3B000EA62D /* sound-tap.mp3 */; };
 		7EA93FAB27564A3B000EA62D /* sound-rise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7EA93FA827564A3B000EA62D /* sound-rise.mp3 */; };
 		7EA93FAC27564A3B000EA62D /* sound-ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7EA93FA927564A3B000EA62D /* sound-ding.mp3 */; };
+		7EB954D52759369600E7F618 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB954D42759369600E7F618 /* Constant.swift */; };
+		7ED8B90B275BD6D900234104 /* HideKeyboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED8B90A275BD6D900234104 /* HideKeyboardExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		7EA93FA827564A3B000EA62D /* sound-rise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-rise.mp3"; sourceTree = "<group>"; };
 		7EA93FA927564A3B000EA62D /* sound-ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-ding.mp3"; sourceTree = "<group>"; };
 		7EA93FB427564BD6000EA62D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7EB954D42759369600E7F618 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		7ED8B90A275BD6D900234104 /* HideKeyboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboardExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +118,7 @@
 		7EA93FB127564A77000EA62D /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				7ED8B90A275BD6D900234104 /* HideKeyboardExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -121,6 +126,7 @@
 		7EA93FB227564A84000EA62D /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				7EB954D42759369600E7F618 /* Constant.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -207,6 +213,8 @@
 			files = (
 				7EA93F9E275649A5000EA62D /* Persistence.swift in Sources */,
 				7EA93F97275649A5000EA62D /* ContentView.swift in Sources */,
+				7ED8B90B275BD6D900234104 /* HideKeyboardExtension.swift in Sources */,
+				7EB954D52759369600E7F618 /* Constant.swift in Sources */,
 				7EA93FA1275649A5000EA62D /* devote.xcdatamodeld in Sources */,
 				7EA93F95275649A5000EA62D /* devoteApp.swift in Sources */,
 			);
